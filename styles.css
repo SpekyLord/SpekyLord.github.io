@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+textarea {
+    resize: none;
+}
+#about img {
+    max-width: 250px; /* Set a max width for the image */
+    border: 3px solid #ddd; /* Add a border */
+}
+
+@media (max-width: 768px) {
+    #about .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
