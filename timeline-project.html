@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline of Computers: From Childhood to Present</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #bbb;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+
+        .timeline-item {
+            padding: 20px 40px;
+            position: relative;
+            width: 50%;
+        }
+
+        .timeline-item.left {
+            left: 0;
+        }
+
+        .timeline-item.right {
+            left: 50%;
+        }
+
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -12px;
+            background-color: white;
+            border: 4px solid #bbb;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item.right::after {
+            left: -12px;
+        }
+
+        .timeline-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .timeline-item h4 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .timeline-item p {
+            margin-bottom: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Timeline of Computers: From Childhood to Present</h1>
+        <div class="timeline">
+            <!-- Childhood Computer -->
+            <div class="timeline-item left">
+                <img src="print-media-post-img-2.webp" alt="Childhood Computer">
+                <h4>2010 - Introduction to Print Media</h4>
+                <p>As I began to learn to read, children's books and magazines became part of my media consumption. My parents would often buy illustrated storybooks and educational magazines, which introduced me to the world of print media.</p>
+            </div>
+
+            <!-- Teen Years Computer -->
+            <div class="timeline-item right">
+                <img src="360_F_564316725_zE8llusnCk3Sfr9rdfKya6fV7BQbjfyV.jpg" alt="Teen Years Computer">
+                <h4>2012 - Gaming and Computers</h4>
+                <p>My first real interaction with digital media began when my uncle introduced me to computer games in 2012. This marked the beginning of my fascination with computers and the digital world.</p>
+            </div>
+
+            <!-- College Computer -->
+            <div class="timeline-item left">
+                <img src="Huawei-Y5-Prime-2018-Gold-600x600.jpg" alt="College Computer">
+                <h4>2017 - My First Cellphone</h4>
+                <p>my first cellphone in 2017 was a pivotal moment. It connected me to social media platforms like Facebook and Instagram, and introduced me to the world of mobile apps. This device became my primary medium for consuming news, entertainment, and staying connected with friends.</p>
+            </div>
+
+            <!-- Present Computer -->
+            <div class="timeline-item right">
+                <img src="RE4HELg.jpeg" alt="Present Computer">
+                <h4>2021 - Own PC and Advanced Digital Interaction</h4>
+                <p>With my own PC, I delved deeper into the digital world. I started engaging with more sophisticated forms of new media, such as video editing, online gaming communities, and streaming services like Netflix. This period marked my transition from a casual consumer to an active participant in digital media.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Francis Gabriel P. Austria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
